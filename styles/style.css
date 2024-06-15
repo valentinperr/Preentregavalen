@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #edcf24;
+    padding: 1rem 1em;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+.logo {
+    width: 10rem;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/************************************************************/
+/************************INDEX*******************************/
+/************************************************************/
+
+
+.hero {
+    height: 100vh;
+    background-image: url("../img/hotelibiza_1z.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-title {
+    width: 100%;
+}
+
+.productos {
+    display:flex ;
+    padding: 2rem;
+    gap: 3rem ;
+    background-color: #edcf24;
+}
+
+.tarjeta-img {
+    height: 50vh;
+}
+
+footer {
+    padding: 6rem;
+    padding-top: 0;
+}
+
+.footer {
+   display: flex;
+   flex-direction:column;
+   background-image: url(../img/casas-cartama-fachada.jpg);
+   background-size:contain;
+   background-position:center center;
+   color: black;
+}
